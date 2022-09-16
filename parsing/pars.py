@@ -33,18 +33,13 @@ def ma():
         time.sleep(2)
 
         #               Ввод Email
-        driver.find_element(By.ID, "EmailId").send_keys("say.meow201@gmail.com")
-        # email_input.send_keys("krolm1950@gmail.com")
-        # email_input.send_keys("lean.garlik@gmail.com")
-        # email_input.send_keys("bull12312345@gmail.com")
-
-        # saymeow202@gmail.com
+        driver.find_element(By.ID, "EmailId").send_keys("Пишем свой email")
 
 
         time.sleep(1)
 
         #               Ввод Password
-        driver.find_element(By.ID, "Password").send_keys("vfsGlobal20@78")
+        driver.find_element(By.ID, "Password").send_keys("Пароль")
         time.sleep(1)
 
         #               Прохождение капчи
@@ -122,22 +117,7 @@ def ma():
         #                   Функция получения кода из письма
         MailCode()
 
-        # driver.find_element(By.ID, "OTPe").send_keys("12345")
-        # time.sleep(200)
 
-        #           Выбор даты
-        # driver.find_element(By.XPATH, "//td=[style='background-color: rgb(188, 237, 145); cursor: pointer;'").click()
-
-
-
-
-    # style="background-color: rgb(188, 237, 145); cursor: pointer;" <td>   ДАТА
-
-    # style="text-align:center;" <td>   ВРЕМЯ
-
-    # btnConfirm    ПОДТВЕРДИТЬ
-
-    # Enter
 
     except Exception as ex:
         print("ТУТ ГДЕ-ТО ОШИБКА\n",ex)
